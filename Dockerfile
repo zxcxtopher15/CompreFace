@@ -1,11 +1,8 @@
-FROM openjdk:17-jdk-slim
+# Use Docker Compose-based setup for CompreFace
+FROM docker/compose:1.29.2
 
 WORKDIR /app
-
 COPY . .
 
-# If it's a Spring Boot app
-RUN ./gradlew build -x test
-
-EXPOSE 8000
-CMD ["java", "-jar", "build/libs/yourapp.jar"]
+# Start CompreFace services
+CMD ["docker-compose", "up"]
