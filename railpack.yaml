@@ -5,3 +5,10 @@ services:
     dockerfilePath: ./Dockerfile
     plan: free
     region: asia-southeast1
+    envVars:
+      - key: POSTGRES_DB
+        value: compreface
+      - key: POSTGRES_USER
+        value: compreface
+      - key: POSTGRES_PASSWORD
+        value: compreface
