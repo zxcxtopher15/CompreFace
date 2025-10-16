@@ -4,7 +4,7 @@ services:
     env: docker
     plan: free
     dockerCommand: docker-compose up
-    rootDir: .
+    rootDir: CompreFace
     envVars:
       - key: PORT
         value: 8000
