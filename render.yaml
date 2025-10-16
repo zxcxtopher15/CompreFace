@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: compreface
+    env: docker
+    plan: free
+    dockerCommand: docker-compose up
+    envVars:
+      - key: PORT
+        value: 8000
