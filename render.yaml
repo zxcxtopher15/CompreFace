@@ -4,6 +4,7 @@ services:
     env: docker
     plan: free
     dockerCommand: docker-compose up
+    rootDir: .
     envVars:
       - key: PORT
         value: 8000
