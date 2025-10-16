@@ -7,8 +7,8 @@ services:
     region: asia-southeast1
     envVars:
       - key: POSTGRES_DB
-        value: compreface
+        value: postgres
       - key: POSTGRES_USER
-        value: compreface
+        value: postgres
       - key: POSTGRES_PASSWORD
-        value: compreface
+        value: OwyXESuYQTJFdYgBmXBiIbfbbJuiQBqP
