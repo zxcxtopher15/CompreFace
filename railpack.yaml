@@ -7,7 +7,7 @@ services:
     region: asia-southeast1
     envVars:
       - key: POSTGRES_DB
-        value: postgres
+        value: railway
       - key: POSTGRES_USER
         value: postgres
       - key: POSTGRES_PASSWORD
